@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".About_cp">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginTop="100dp"
+        android:lineHeight="22sp"
+        android:text="চাঁদপুর জেলা বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলের চট্টগ্রাম বিভাগের একটি প্রশাসনিক অঞ্চল। উপজেলার সংখ্যানুসারে চাঁদপুর বাংলাদেশের একটি “এ” শ্রেণিভুক্ত জেলা।[১] পদ্মা, মেঘনা ও ডাকাতিয়া নদীর মিলনস্থলে এ জেলা অবস্থিত। ইলিশ মাছের অন্যতম প্রজনন অঞ্চল হিসেবে চাঁদপুরকে ইলিশের বাড়ি চাঁদপুর নামে ডাকা হয়।"
+        android:textColor="#383434"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+
+    <TextView
+        android:id="@+id/nbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/btn_back"
+        android:backgroundTint="#F1F8FD"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Next"
+        android:textColor="#45464D"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+    <TextView
+        android:id="@+id/bbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/btn_back"
+        android:backgroundTint="#F1F8FD"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="back"
+        android:textColor="#45464D"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/nbtn" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
